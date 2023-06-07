@@ -1,0 +1,12 @@
+{
+    "name": "my-project",
+    "version": "1.0.0",
+    "description": "Pokemon List nestjs et react",
+    "scripts": {
+    "start": "npm run start:react & npm run start:nest",
+    "start:react": "cd react-pokemon-ui && npm run dev",
+    "start:nest": "cd nest-pokemon-api && npm run start:dev",
+    "install": "cd react-pokemon-ui && npm install && cd ../nest-pokemon-api && npm install",
+    "uninstall": "cd react-pokemon-ui && rm -rf node_modules && cd ../nest-pokemon-api && rm -rf node_modules"
+    }
+}
