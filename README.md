@@ -4,14 +4,15 @@ This project is a simpe paginated Pokemon List built with NestJS and React.
 
 ### Prerequisites
 
-- Node.js v18 or higher is installed on your machine.
+- Node.js **v18** or higher is installed on your machine.
 
 ### Installation
 
 To install and run the project, please follow these steps:
 
 1. Open a terminal window and navigate to the root directory of the project.
-2. Run the following command to install the project dependencies: `npm install`
+2. Run the following command to install the project dependencies: `npm run install_pokedex`
+3. Run both frontend and backend: `npm start`
 
 ### Scripts
 
@@ -26,6 +27,7 @@ The following scripts are available in the project:
 
 &nbsp;
 ### Backend DDH - nest-pokemon-api
+http://localhost:3000/pokemon/list
 
 ```
 │       └── pokemon
@@ -46,6 +48,7 @@ The following scripts are available in the project:
 ```
 
 ### Frontend React - nest-pokemon-ui
+http://localhost:5174/
 
 React project is fetching next-pokemon-api using custom hook useAPI, which one is using ReactQuery for caching.   
 
